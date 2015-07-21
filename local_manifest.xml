@@ -29,5 +29,7 @@
     <project path="external/bluetooth/bluez" name="KlinkOnE/android_external_bluetooth_bluez" revision="master"/>
     <project path="external/bluetooth/sbc" name="KlinkOnE/android_external_bluetooth_sbc" revision="master"/>
     <project path="external/bluetooth/glib" name="KlinkOnE/android_external_bluetooth_glib" revision="master"/>
-    
+    <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="architoolchain-4.9-arm-linux-gnueabi-generic" />
+    <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="sabermod-4.9-arm-linux-androideabi" />
+
 </manifest>
