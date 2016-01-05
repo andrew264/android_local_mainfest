@@ -32,9 +32,9 @@
     <project path="external/bluetooth/glib" name="KlinkOnE/android_external_bluetooth_glib" revision="master" />
     
     <!-- Additional remotes -->
-    <remote name="aosp" fetch="https://android.googlesource.com/" />
+    <remote name="google" fetch="https://android.googlesource.com/" />
     
     <!-- Toolchain -->
-    <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
-    <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
+    <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="google" revision="master" />
+    <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="google" revision="master" />
 </manifest>
