@@ -23,6 +23,9 @@
     <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
     <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />	
 
+    <remove-project name="CyanogenMod/android_art" />
+    <project path="art" name="ArchiDroid/android_art" revision="cm-11.0" />
+
     <!-- Local projects -->
     <project path="hardware/atheros/wlan" name="legaCyMod/android_hardware_atheros_wlan" revision="cm-11.0" />
     <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" revision="cm-11.0" />
