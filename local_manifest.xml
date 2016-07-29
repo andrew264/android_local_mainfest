@@ -3,13 +3,13 @@
 
     <!-- CM replacements -->
     <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
-    <project path="packages/apps/Bluetooth" name="KlinkOnE/android_packages_apps_Bluetooth---daniel" revision="cm-11.0" />
+    <project path="packages/apps/Bluetooth" name="kengnatural/android_packages_apps_Bluetooth---daniel" revision="cm-11.0" />
 
     <remove-project name="CyanogenMod/android_frameworks_opt_telephony-msim" />
-    <project path="frameworks/opt/telephony-msim" name="KlinkOnE/android_frameworks_opt_telephony-msim" revision="stable/cm-11.0" />
+    <project path="frameworks/opt/telephony-msim" name="kengnatural/android_frameworks_opt_telephony-msim" revision="stable/cm-11.0" />
     
     <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-    <project path="frameworks/opt/telephony" name="KlinkOnE/android_frameworks_opt_telephony" revision="cm-11.0" />
+    <project path="frameworks/opt/telephony" name="kengnatural/android_frameworks_opt_telephony" revision="cm-11.0" />
     
     <remove-project name="CyanogenMod/android_frameworks_av" />
     <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
@@ -30,9 +30,9 @@
     <project path="hardware/atheros/wlan" name="legaCyMod/android_hardware_atheros_wlan" revision="cm-11.0" />
     <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" revision="cm-11.0" />
     <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-11.0" />
-    <project path="external/bluetooth/bluez" name="KlinkOnE/android_external_bluetooth_bluez" revision="master" />
-    <project path="external/bluetooth/sbc" name="KlinkOnE/android_external_bluetooth_sbc" revision="master" />
-    <project path="external/bluetooth/glib" name="KlinkOnE/android_external_bluetooth_glib" revision="master" />
+    <project path="external/bluetooth/bluez" name="kengnatural/android_external_bluetooth_bluez" revision="master" />
+    <project path="external/bluetooth/sbc" name="kengnatural/android_external_bluetooth_sbc" revision="master" />
+    <project path="external/bluetooth/glib" name="kengnatural/android_external_bluetooth_glib" revision="master" />
     
     <!-- Additional remotes -->
     <remote name="google" fetch="https://android.googlesource.com/" />
