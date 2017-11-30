@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- GT-S7562 -->
-    <project path="device/samsung/kylessopen" name="andrew264/android_device_samsung_kylessopen" revision="master" />
+    <project path="device/samsung/kylessopen" name="andrew264/android_device_samsung_kylessopen" revision="lineage" />
     <project path="kernel/samsung/kylessopen" name="andrew264/android_kernel_samsung_kylessopen" revision="master" />
     <project path="vendor/samsung/kylessopen" name="andrew264/android_vendor_samsung_kylessopen" revision="master" />
 
-    <!-- FM Radio -->
-    <project path="hardware/qcom/fm" name="legaCyMod/android_hardware_qcom_fm" revision="cm-11.0" / >
-    <project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" revision="cm-11.0" / >
 </manifest>
